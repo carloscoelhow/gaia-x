@@ -1,0 +1,27 @@
+{
+    "@context":
+    [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+    ],
+    "id": "did:web:raw.githubusercontent.com:carloscoelhow:gaia-x:main",
+    "verificationMethod":
+    [
+        {
+            "id": "did:web:raw.githubusercontent.com:carloscoelhow:gaia-x:main#{A unique ID for this verification method}",
+            "type": "JsonWebKey2020",
+            "publicKeyJwk":
+            {
+                "kty": "RSA",
+                "n": "8TzFwbGSW76MPFfB9m-BAqNu1VviWJ9nx-F5SO8aF9eR3tzFo23cmtwyeincJjBc4tBR3FY33ri8w9gFXiWIIkFa-eIjjtSuowj_Mz1KvPIQJl7sfiTO6wXfXFuJrXxkGPw8evQxDzM0XnFVFc5LbsZwU4fMyj1nsXol18DGuYM4OxpTjkt2DxYOFA_ykIoxFsvV9AKUtP2DjBUa9LXBSDTZiFMLnpJQxtVHk3Bex4RqSLRABYMiI48KgkXphvHyQeuiwoQwA_SZXVEaal-xCxm33uChXlP7dy1JQGXnJ8xjOn8sHIs8t3o_5u0koH_WoSg_2YLdVhVwpB53DBvqhQ",
+                "e": "AQAB",
+                "alg": "RR253",
+                "x5u": "https://raw.githubusercontent.com/carloscoelhow/gaia-x/main/cert.pem"
+            }
+        }
+    ],
+    "assertionMethod":
+    [
+        "did:web:raw.githubusercontent.com:carloscoelhow:gaia-x:main#{A unique ID for this verification method}"
+    ]
+}
