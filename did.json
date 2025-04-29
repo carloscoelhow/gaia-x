@@ -8,7 +8,7 @@
     "verificationMethod":
     [
         {
-            "id": "did:web:raw.githubusercontent.com:carloscoelhow:gaia-x:main#{A unique ID for this verification method}",
+            "id": "did:web:raw.githubusercontent.com:carloscoelhow:gaia-x:main#JWK2020-RSA",
             "type": "JsonWebKey2020",
             "publicKeyJwk":
             {
@@ -22,6 +22,6 @@
     ],
     "assertionMethod":
     [
-        "did:web:raw.githubusercontent.com:carloscoelhow:gaia-x:main#{A unique ID for this verification method}"
+        "did:web:raw.githubusercontent.com:carloscoelhow:gaia-x:main#JWK2020-RSA"
     ]
 }
